@@ -11,15 +11,6 @@ let pmk: Target = .target(name: "PromiseKit")
 pmk.path = "Sources"
 pmk.exclude = [
     "AnyPromise.swift",
-    "AnyPromise.m",
-    "PMKCallVariadicBlock.m",
-    "dispatch_promise.m",
-    "join.m",
-    "when.m",
-    "NSMethodSignatureForBlock.m",
-    "after.m",
-    "hang.m",
-    "race.m",
     "Deprecations.swift"
 ]
 pkg.swiftLanguageVersions = [3, 4]
